@@ -1,0 +1,23 @@
+.main-btn {
+  background: 
+      linear-gradient(#fff, #fff) padding-box,
+      linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%) border-box;
+  color: #2c5364;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 
+      background 0.4s ease, 
+      color 0.4s ease,
+      box-shadow 0.3s ease,
+      border 0.3s ease;
+}
+
+.main-btn:hover {
+  background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+  color: #fff;
+  box-shadow: 0 0 10px rgba(44, 24, 24, 0.2);
+}
